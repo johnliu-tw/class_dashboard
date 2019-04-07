@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<style>
+div{
+  border: 1px solid black;
+  width: 300px;
+  height: 30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  background: yellow;
+}
+.first:hover{
+ transform:translate(60px);
+}
+.second:hover{
+  transform:translate(0px, 10px);
+}
+.third:hover{
+  transform:translate(10px,10px);
+}
+.forth:hover{
+  transform:rotate(10deg);
+}
+.fifth:hover{
+  transform-origin:right bottom;
+  transform:rotate(-5deg);
+}
+.sixth:hover{
+  transform:scale(1.2, 1);
+}
+.seventh:hover{
+  transform:scale(1, 1.2);
+}
+.eightth:hover{
+  transform:translate(10px) rotate(-5deg) scale(0.8);
+}
+</style>
+<div class="first">
+   衝一發
+</div>
+<div class="second">
+   往下一發
+</div>
+<div class="third">
+   往右下
+</div>
+<div class="forth">
+   向右下轉 10 度
+</div>
+<div class="fifth">
+   已右下角為準向下轉 5 度
+</div>
+<div class="sixth">
+   左右伸展
+</div>
+<div class="seventh">
+   上下伸展  
+</div>
+<div class="eightth">
+   向右 100px, 旋轉 5 度， 並縮小
+</div>
+</body>
+</html>

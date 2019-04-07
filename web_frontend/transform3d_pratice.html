@@ -1,0 +1,42 @@
+<style>
+div {
+  width: 60px;
+  height: 60px;
+  background-color: lightblue;
+}
+.box{
+  perspective: 250px;
+  margin-left: 100px;
+  margin-bottom: 200px;
+}
+.first:hover {
+  transform: translate3d(20px, 20px, 20px);
+  transition: all 1s ease;
+  background-color: pink;
+}
+.second:hover{
+  transform: rotateX(50deg) rotateY(10deg) rotateZ(30deg);
+  transition: all 1s ease;
+  background-color: pink;
+}
+.third:hover{
+  transform: scale3d(2,2,1);
+  transition: all 1s ease;
+  background-color: pink;
+}
+</style>
+<div class="box">
+    <div>Static</div>
+    <div class="first">Moved</div>
+    <div>Static</div>
+</div>
+<div class="box">
+    <div>Static</div>
+    <div class="second">Moved</div>
+    <div>Static</div>
+</div>
+<div class="box">
+    <div>Static</div>
+    <div class="third">Moved</div>
+    <div>Static</div>
+</div>
