@@ -1,6 +1,5 @@
 <style>
-/*For IE CSS3 transition property works starting IE10*/
-* {box-sizing: border-box;}
+
 body {font-family: 'Playfair Display', serif; margin: 0;text-align: center}
 h1 {font-weight: normal;color: #6A5953}
 kbd {font-size: 0.9em;display:inline-block;line-height:1.1;}
@@ -25,30 +24,18 @@ div, h2, img {
 .one {
   background-color: #B0CBC4;
 }
-.one:hover {
-  border: 5px solid #B0CBC4;
-  background-color: #F2EBD8;
-  border-top-left-radius: 100% 20px;
-  border-bottom-right-radius: 100% 20px;
-}
+
 .two {
   background-color: #9F908F;
 }
-.two:hover {
-  border: 5px inset #9F908F;
-  background-color: #E0CABB;
-}
+
 .four {
   width: 200px;
   height: 100px;
   background-color: #95A1B1;
   margin: 0 auto;
 }
-.four:hover {
-  width: 250px;
-  height: 80px;
-  box-shadow: 0 15px 15px -10px rgba(0,0,0, .5);
-}
+
 .five {
   width: 100px;
   height: 100px;
@@ -57,9 +44,7 @@ div, h2, img {
   position: relative;
   left: 50px;
 }
-.five:hover {
-  left: -50px;
-}
+
 img {width: 100%; display: block;}
 img:hover {opacity: 0.5;}
 .six {
@@ -73,9 +58,7 @@ img:hover {opacity: 0.5;}
   background-repeat: no-repeat;
   background-position: bottom center;
 }
-.six:hover {
-  background-position: top center;
-}
+
 .seven {
   width: 300px;
   height: 100px;
@@ -85,6 +68,27 @@ img:hover {opacity: 0.5;}
   background-image: -o-radial-gradient(#9ed8d3 2px, rgba(255,0,0,0) 3px);
   background-image: radial-gradient(#9ed8d3 2px, transparent 3px);
   background-size: 10px 10px;
+}
+.one:hover {
+  border: 5px solid #B0CBC4;
+  background-color: #F2EBD8;
+  border-top-left-radius: 100% 20px;
+  border-bottom-right-radius: 100% 20px;
+}
+.two:hover {
+  border: 5px inset #9F908F;
+  background-color: #E0CABB;
+}
+.four:hover {
+  width: 250px;
+  height: 80px;
+  box-shadow: 0 15px 15px -10px rgba(0,0,0, .5);
+}
+.five:hover {
+  left: -50px;
+}
+.six:hover {
+  background-position: top center;
 }
 .seven:hover {
   background-size: 20px 20px;
